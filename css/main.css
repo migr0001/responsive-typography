@@ -12,6 +12,8 @@ html {
   text-size-adjust: 100%;
 
   color: #222;
+
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -20,6 +22,9 @@ html {
 
 article {
   max-width: 43em;
+  font-family: "Crimson Text";
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article h1 {
@@ -46,4 +51,26 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+p:last-child {
+  margin-bottom: 1.5em;
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
