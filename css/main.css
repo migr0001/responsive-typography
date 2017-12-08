@@ -53,24 +53,40 @@ blockquote {
   color: #999;
 }
 
-p:last-child {
-  margin-bottom: 1.5em;
-}
-
 @media only screen and (min-width: 38em) {
 
-
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+  }
 
+}
+
+body {
+  margin: 0;
+}
+
+article p {
+
+}
+
+article ol {
 
 }
